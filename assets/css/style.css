@@ -68,7 +68,7 @@ p {
 }
 
 .first-screen {
-  background: url(../img/fitrst-screen.png) no-repeat center center;
+  background: url(../img/fitrst-screen.png) no-repeat top center;
   min-height: 100vh;
 }
 
@@ -168,7 +168,7 @@ p {
 }
 
 .presentation {
-  background: url(../img/backgraund.jpg) no-repeat center center;
+  background: url(../img/backgraund.jpg) no-repeat top center;
   min-height: 120vh;
   padding-top: 65px;
 }
@@ -261,7 +261,7 @@ p {
 }
 
 .push-air {
-  background: url(../img/backgraund-2.png) no-repeat center center;
+  background: url(../img/backgraund-2.png) no-repeat top center;
   background-size: cover;
   min-height: 100vh;
   padding-top: 180px;
@@ -291,7 +291,7 @@ p {
 }
 
 .types {
-  background: url(../img/back-3.png) no-repeat center center;
+  background: url(../img/back-3.png) no-repeat top center;
   background-size: cover;
   min-height: 100vh;
   padding-top: 110px;
@@ -514,9 +514,9 @@ p {
 }
 
 .zero {
-  background: url(../img//top-bg.png) no-repeat center center;
+  background: url(../img//top-bg.png) no-repeat top center;
   min-height: 100vh;
-  padding-top: 300px;
+  padding-top: 215px;
   padding-bottom: 270px;
 }
 
@@ -562,9 +562,9 @@ p {
 }
 
 .helper {
-  background: url(../img//bg-4.png) no-repeat center center;
+  background: url(../img//bg-4.png) no-repeat top center;
   min-height: 100vh;
-  padding-top: 300px;
+  padding-top: 260px;
   padding-bottom: 270px;
 }
 
@@ -584,4 +584,46 @@ p {
 
 .helper__description:not(:last-child) {
   margin-bottom: 15px;
+}
+
+.pace-life {
+  background: url(../img//back-5.png) no-repeat top center;
+  min-height: 100vh;
+  padding-top: 250px;
+  padding-bottom: 270px;
+}
+
+.pace-life__title {
+  max-width: 490px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+.pace-life__description {
+  font-size: 24px;
+  line-height: 160%;
+  max-width: 620px;
+}
+
+.technology {
+  background: url(../img//back-6.png) no-repeat top center;
+  min-height: 110vh;
+  padding-top: 250px;
+  padding-bottom: 270px;
+}
+
+.technology__title {
+  max-width: 800px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+.technology__description {
+  font-size: 24px;
+  line-height: 160%;
+  max-width: 720px;
 }

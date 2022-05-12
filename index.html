@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/fonts.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Document</title>
 </head>
@@ -52,7 +53,7 @@
         устройства знаменитого голландского бренда. Система имитирует руки массажиста и охватывает максимальное
         количество участков тела. </p>
       <div class="first-screen__price">
-        <p class="first-screen__price-current">473 990 ₽</p>
+        <p class="first-screen__price-current">473 990 <span>₽</span></p>
         <s class="first-screen__price-old">568 788 ₽</s>
       </div>
       <div class="first-screen__wrapper">
@@ -61,7 +62,7 @@
       </div>
       <ul class="first-screen__list">
         <li class="first-screen__item">
-          <a href="#" class="first-screen__link">Есть в наличии</a>
+          <a href="#" class="first-screen__link first-screen__link--first">Есть в наличии</a>
         </li>
         <li class="first-screen__item">
           <a href="#" class="first-screen__link">Сервисный центр в г. Владимир</a>
@@ -70,7 +71,8 @@
           <a href="#" class="first-screen__link">Бесплатная доставка по РФ</a>
         </li>
         <li class="first-screen__item">
-          <a href="#" class="first-screen__link first-screen__link-download">Скачать инструкцию</a>
+          <a href="./assets/img/test.png" class="first-screen__link first-screen__link-download" download>Скачать
+            инструкцию</a>
         </li>
       </ul>
     </div>
@@ -116,7 +118,7 @@
           <li class="types__item">
             <div class="types__item-wrapper">
               <p class="types__item-title">Роликовый</p>
-              <a href="#" class="types__item-link">смотреть</a>
+              <a href="#" class="types__item-link">смотреть <img src="./assets/img/arrow.svg" alt=""></a>
             </div>
             <p class="types__item-description">Роликовый массажный механизм имитирует такие функции как: постукивание,
               давление, растирание, точечное воздействие. </p>
@@ -124,7 +126,7 @@
           <li class="types__item">
             <div class="types__item-wrapper">
               <p class="types__item-title">Воздушно-компрессионный</p>
-              <a href="#" class="types__item-link">смотреть</a>
+              <a href="#" class="types__item-link">смотреть <img src="./assets/img/arrow.svg" alt=""></a>
             </div>
             <p class="types__item-description">Аэроподушки мягко разминают мышцы, стимулируют кровообращение, хорошо
               подходят для снятия усталости
@@ -133,7 +135,7 @@
           <li class="types__item">
             <div class="types__item-wrapper">
               <p class="types__item-title">Расслабляющий</p>
-              <a href="#" class="types__item-link">смотреть</a>
+              <a href="#" class="types__item-link">смотреть <img src="./assets/img/arrow.svg" alt=""></a>
             </div>
             <p class="types__item-description">При расслабляющем массаже ролики искусно повторяют
               движения рук массажиста.</p>
@@ -141,7 +143,7 @@
           <li class="types__item">
             <div class="types__item-wrapper">
               <p class="types__item-title">Шиацу</p>
-              <a href="#" class="types__item-link">смотреть</a>
+              <a href="#" class="types__item-link">смотреть <img src="./assets/img/arrow.svg" alt=""></a>
             </div>
             <p class="types__item-description">Массаж Шиацу — это воздействие на определенные точки путем надавливания,
               что приводит к снятию избыточного напряжения в мышцах.</p>
@@ -149,7 +151,7 @@
           <li class="types__item">
             <div class="types__item-wrapper">
               <p class="types__item-title">Растягивающий</p>
-              <a href="#" class="types__item-link">смотреть</a>
+              <a href="#" class="types__item-link">смотреть <img src="./assets/img/arrow.svg" alt=""></a>
             </div>
             <p class="types__item-description">Вытягивающий массаж позволяет расслабить мышцы, уменьшить избыточное
               напряжение, образовавшееся
@@ -159,7 +161,7 @@
           <li class="types__item">
             <div class="types__item-wrapper">
               <p class="types__item-title">Массаж стоп Шиацу</p>
-              <a href="#" class="types__item-link">смотреть</a>
+              <a href="#" class="types__item-link">смотреть <img src="./assets/img/arrow.svg" alt=""></a>
             </div>
             <p class="types__item-description">Стимуляция большого количество биологически активных точек и рефлекторных
               зон ваших ступней оказывает положительное влияние на весь организм.</p>
@@ -167,7 +169,7 @@
           <li class="types__item">
             <div class="types__item-wrapper">
               <p class="types__item-title">Массаж стоп Гуаша</p>
-              <a href="#" class="types__item-link">смотреть</a>
+              <a href="#" class="types__item-link">смотреть <img src="./assets/img/arrow.svg" alt=""></a>
             </div>
             <p class="types__item-description">Массаж сочетает в себе круговые и растирающие движения, имитирующие
               традиционный китайский массаж Гуаша, что позволяет охватить максимальное количество акупунктурных точек.
@@ -191,7 +193,7 @@
               <p class="request__caption">Имя</p>
             </div>
             <div class="request__block">
-              <input type="text" class="request__input" placeholder="Koenigsmann@mail.ru">
+              <input type="text" class="request__input" placeholder="Ваш@mail.ru">
               <p class="request__caption">Почта</p>
             </div>
             <div class="request__block">
@@ -248,8 +250,8 @@
   </section>
   <section class="technology">
     <div class="wrapper">
-      <h2 class="technology__title">Уют и тепло <br>
-        с технологией графенового прогрева</h2>
+      <h2 class="technology__title">Новая технология
+        прогрева</h2>
       <p class="technology__description">Koenigsmann Zen прогревает проблемные зоны до 40-50&deg;С, обеспечивая
         расслабляющий эффект, уменьшает боли в мышцах и улучшает циркуляцию крови во всем организме</p>
     </div>

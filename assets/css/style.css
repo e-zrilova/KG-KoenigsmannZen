@@ -940,3 +940,15 @@ p {
 .specification__btn {
   flex: 1;
 }
+
+.specification__wrapper--medium {
+  max-height: 600px;
+}
+
+.specification__wrapper--mini {
+  max-height: 200px;
+}
+
+.specification__wrapper--default {
+  max-height: 380px;
+}

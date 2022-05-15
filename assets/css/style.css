@@ -952,3 +952,16 @@ p {
 .specification__wrapper--default {
   max-height: 380px;
 }
+
+.dimensions__title {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 76px;
+  margin-bottom: 30px;
+}
+
+.dimensions__content {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}

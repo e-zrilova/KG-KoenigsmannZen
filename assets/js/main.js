@@ -43,3 +43,15 @@ const photosOfBuyers = new Swiper(".js-photos-of-buyers-slider", {
   spaceBetween: 64,
   slidesPerView: 6,
 });
+
+const zenFeedback = new Swiper(".js-zen-feedback-slider", {
+  cssMode: true,
+  navigation: {
+    nextEl: ".js-zen-feedback-slider--next",
+    prevEl: ".js-zen-feedback-slider--prev",
+  },
+  mousewheel: true,
+  keyboard: true,
+  spaceBetween: 64,
+  slidesPerView: 6,
+});

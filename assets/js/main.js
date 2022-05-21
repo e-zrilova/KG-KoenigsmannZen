@@ -13,5 +13,5 @@ const videoMaterialslSlider = new Swiper('.js-video-materials-slider', {
     onlyInViewport: false,
   },
   spaceBetween: 30,
-  slidesPerView: 4,
+  slidesPerView: 3,
 });

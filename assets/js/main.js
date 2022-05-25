@@ -59,15 +59,21 @@ const zenFeedback = new Swiper(".js-zen-feedback-slider", {
 
 const specificationInfoBtn = document.querySelectorAll('.js-specification__btn')
 const specificationInfoDesc = document.querySelectorAll('.js-specification__block-desc');
+const specificationTitleDesc = document.querySelectorAll('.js-specification-text');
 
 if (specificationInfoBtn) {
   specificationInfoBtn.forEach((item) => {
     item.addEventListener('click', () => {
       const parentNode = item.closest('.specification__item');
       const currentDescriptionNode = parentNode.querySelector('.js-specification__block-desc');
+      const currentTitleNode = parentNode.querySelector('.js-specification-text');
+
+      specificationTitleDesc.forEach(titleNode => titleNode.classList.remove('active'));
+      currentTitleNode.classList.add('active');
 
       specificationInfoDesc.forEach(descNode => descNode.classList.remove('active'));
       currentDescriptionNode.classList.add('active');
+
     });
   });
 }

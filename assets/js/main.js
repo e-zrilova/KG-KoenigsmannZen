@@ -55,3 +55,19 @@ const zenFeedback = new Swiper(".js-zen-feedback-slider", {
   spaceBetween: 64,
   slidesPerView: 6,
 });
+
+
+const specificationInfoBtn = document.querySelectorAll('.js-specification__btn')
+const specificationInfoDesc = document.querySelectorAll('.js-specification__block-desc');
+
+if (specificationInfoBtn) {
+  specificationInfoBtn.forEach((item) => {
+    item.addEventListener('click', () => {
+      const parentNode = item.closest('.specification__item');
+      const currentDescriptionNode = parentNode.querySelector('.js-specification__block-desc');
+
+      specificationInfoDesc.forEach(descNode => descNode.classList.remove('active'));
+      currentDescriptionNode.classList.add('active');
+    });
+  });
+}

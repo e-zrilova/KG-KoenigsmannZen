@@ -797,6 +797,23 @@ p {
   height: 47px;
 }
 
+.inspection__img-zoom {
+  display: none
+}
+
+
+.inspection__decor-wrapper.active+.inspection__img-zoom {
+  display: block;
+  position: absolute;
+  width: 703px;
+  height: 703px;
+  z-index: 6;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  cursor: pointer;
+}
 
 .inspection__decor-wrapper:hover {
   transform: scale(1.25);
@@ -967,6 +984,7 @@ p {
 
 .specification__text.active {
   color: #000000;
+  font-weight: 600;
 }
 
 .specification__value {

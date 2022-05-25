@@ -77,3 +77,24 @@ if (specificationInfoBtn) {
     });
   });
 }
+
+
+const inspectionBtn = document.querySelectorAll('.js-inspection__decor-wrapper')
+const inspectionImg = document.querySelectorAll('.js-inspection__img-zoom');
+
+if (inspectionBtn) {
+  inspectionBtn.forEach((item) => {
+    item.addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+  });
+}
+
+if (inspectionImg) {
+  inspectionImg.forEach((item) => {
+    item.addEventListener('click', () => {
+      const currentBtn = item.previousElementSibling;
+      currentBtn.classList.remove('active');
+    });
+  });
+}
